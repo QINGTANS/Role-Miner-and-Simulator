@@ -27,4 +27,5 @@ These additional attributes allow the events to be organized into the following 
 
 ## Role Simulator
 The input is the enriched event log containing the attributes inferred by **Role Miner**, and the output is a simulated event log that includes case identifiers, activities, timestamps, and agent instances; the following describes the steps of **Role Simulator**.
+
 <img src="RS_step.png" alt="Role Miner output" width="50%">
