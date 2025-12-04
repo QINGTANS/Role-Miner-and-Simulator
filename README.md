@@ -6,6 +6,21 @@ This project includes two main tasks:
 2. Role Simulator — uses the discovered groups and roles to perform enhanced process simulation.
 
 ## Role Miner
-The input should be an event log with case identifier, activity, timestamp, and agent instance attributes.
-The output should be an extended event log with group, role and group type attributes for each event, then they can form to the following structure.
-![The organizational structure generated from Role Miner](motivate_RM.pdf)
+### Input
+Provide an event log that contains the following attributes:
+
+- **case identifier**
+- **activity**
+- **timestamp**
+- **agent instance**
+
+### Output
+The tool produces an **extended event log** enriched with:
+
+- **group**
+- **role**
+- **group type**
+
+These additional attributes allow the events to be organized into the following structure:
+
+<img src="motivate_RM.png" alt="Role Miner output" width="50%">
