@@ -8,3 +8,4 @@ This project includes two main tasks:
 ## Role Miner
 The input should be an event log with case identifier, activity, timestamp, and agent instance attributes.
 The output should be an extended event log with group, role and group type attributes for each event, then they can form to the following structure.
+![The organizational structure generated from Role Miner](motivate_RM.pdf)
